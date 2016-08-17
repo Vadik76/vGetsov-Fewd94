@@ -1,4 +1,9 @@
 body {
 	background: black;
 	color: white;
+	font-size: 16 pk
+	text-align: center;
+}
+p {
+	font-family: arial, sans-serif;
 }
