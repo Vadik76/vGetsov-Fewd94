@@ -1,0 +1,38 @@
+header{
+	background-color: blue;
+}
+
+h1{
+	color: black;
+	font-size: 30px;
+}
+nav{
+	text-align: right;
+}
+
+nav a{
+	color: yellow;
+
+}
+h2{
+	font-size: 20px;
+}
+
+section{
+	width: 70%;
+	float: left;
+}
+
+aside{
+	width: 30%;
+	float: right;
+}
+#categories a{
+	display: block;
+}
+
+footer{
+	clear: both;
+	background-color: grey;
+	text-align: center;
+}
