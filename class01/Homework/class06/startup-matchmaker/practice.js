@@ -1,0 +1,1 @@
+var age = document.getElementByTag("input").value
