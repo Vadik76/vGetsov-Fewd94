@@ -28,6 +28,7 @@ body {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    height: 100px;
 }
   
 .banner {
@@ -45,9 +46,12 @@ h1 {
     font-family: serif;
     padding: 0;
     border: 0;
+    margin: 0;
     font: inherit;
     vertical-align: baseline;
     display: block;
+    font-size: 30px;
+    line-height: 100px;
  
 }
 a {
@@ -55,11 +59,11 @@ a {
     text-decoration: none;
     margin: 0;
     border: 0;
-    font-size: 100%;
+    padding: 0;
+    font-size: 30px;
     font: inherit;
     vertical-align: baseline;
     display: block;
-    padding: 20px 15px;
 }
 
 nav {
@@ -72,6 +76,12 @@ nav {
     font: inherit;
     vertical-align: baseline;
 }
+
+nav a {
+    padding: 0 20px;
+    line-height: 100px;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -138,5 +148,9 @@ footer {
     padding: 2% 3%;
 }
 
-
+button {
+    background-color: yellow;
+    width: 100%;
+    padding: 2%;
+}
   
