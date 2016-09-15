@@ -11,3 +11,23 @@
 // - .click()
 // - . text() or .html()
 // - .css()
+$(document).ready(function(){
+	var total = 0;
+
+	$('#a10').click(function(){
+		total = total + 10;
+		$('#out');html(total);
+	});
+
+	$('#a20').click(function(){
+		total = total + 20;
+		$('#out');html(total);
+	});
+
+	$('#a30').click(function(){
+		total = total + 30;
+		$('#out');html(total);
+	});
+
+
+}

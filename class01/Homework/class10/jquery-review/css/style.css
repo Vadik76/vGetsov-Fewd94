@@ -1,4 +1,4 @@
-.text{
+.box1{
 	background-color: green;
 	height: 200px;
 	width: 200px;
@@ -7,7 +7,7 @@
     margin: 25px;
 }
 
-.text2{
+.box2{
 	background-color: green;
 	height: 200px;
 	width: 200px;
