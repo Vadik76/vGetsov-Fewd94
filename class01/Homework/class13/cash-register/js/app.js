@@ -23,6 +23,7 @@ $(document).ready(function () {
 		currentVal += myVal;
 		$('#entries').append("<tr><td></td><td>" + myVal + "</td></tr>");
 		$('#total').html("$" + currentVal);
+		$('#newEntry').val();
 		event.preventDefault();
 		
 	});
